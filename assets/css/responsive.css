@@ -1,0 +1,6 @@
+@media (max-width: 812px) { 
+    .contact-style-one .contact-form {padding-right: 0;}
+}
+@media (max-width: 1024px) {
+    .contact-style-one .contact-infos .title h3 {font-size: 36px;}
+}
