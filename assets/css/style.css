@@ -26922,7 +26922,7 @@ i[class^=flaticon-]:before{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: inherit;
+    border-radius: 0 0 0 100px;
   }
  
   .slider_GYM .bnr-title{
