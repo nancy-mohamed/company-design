@@ -13898,8 +13898,7 @@ ul a.rsswidget {
   padding-left: 100px; }
   .about-bx7 .about-contact-box .title {
     color: #1b1b1b;
-    font-size: 36px;
-    line-height: 48px; }
+   }
   .about-bx7 .about-contact-box .rotate-text {
     position: absolute;
     left: -255px;
@@ -26913,17 +26912,22 @@ i[class^=flaticon-]:before{
 
   .slider_GYM{
     background-image: url(../images/GYM/bg_GYM.png);
-    /* background-position: center; */
-    background-repeat: no-repeat;
+    /*background-position: center;
+    */background-repeat: no-repeat;
     background-size: 100%;
-    padding: 100px 0;
-    background-color: transparent;
+    /*padding: 100px 0;
+    */background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 0 0 0 100px;
-  }
+    border-radius: 0 0 0 200px;
+    height: 880px;
+    -webkit-border-radius: 0 0 0 200px;
+    -moz-border-radius: 0 0 0 200px;
+    -ms-border-radius: 0 0 0 200px;
+    -o-border-radius: 0 0 0 200px;
+}
  
   .slider_GYM .bnr-title{
     color: #333333;
@@ -26931,12 +26935,12 @@ i[class^=flaticon-]:before{
     font-weight: 100;
   }
   .text_color_gym{
+    text-transform: uppercase;
     color: #F18C7F;
   }
   .slider_GYM p{
     color: #333333;
-    font-size: 16px;
-    width: 60%;
+    font-size: 20px;
   }
 
 
@@ -26974,7 +26978,10 @@ i[class^=flaticon-]:before{
 
 
   .features_GYM{
-    padding: 50px 0 120px;
+    padding: 50px 0 350px;
+  }
+  .features_GYM .section-head {
+    margin-bottom: 100px !important;
   }
   .features_GYM .section-head .title{
     font-size: 40px;
@@ -26986,12 +26993,11 @@ i[class^=flaticon-]:before{
   .features_GYM .section-head p{
     font-size: 14px;
     color: #333333;
-    width: 30%;
     line-height: 22px;
   }
 .features_GYM .icon-bx-feature{
   background: #fff;
-  padding: 60px 20px 40px;
+  padding: 120px 20px 40px;
   border-radius: 10px;
   position: relative;
   box-shadow: 3px 3px 15px 0 rgb(0 0 0 / 15%);
@@ -27010,7 +27016,7 @@ i[class^=flaticon-]:before{
 }
 .features_GYM .icon-bx{
   position: absolute;
-  top: -37px;
+  top: -29px;
 }
 .mt-40{
   margin-top: 40px;
@@ -27018,8 +27024,8 @@ i[class^=flaticon-]:before{
 
 .features_GYM .icon-bx .shape{
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    width: 73px;
-    height: 78px;
+  width: 103.92px;
+  height: 118.05px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27045,24 +27051,443 @@ i[class^=flaticon-]:before{
 
 
 .banner_GYM {
-  background-image: url(../images/GYM/bg_banner.png);
+  background: #f18c7f;
+  /* background-image: url(../images/GYM/bg_banner.png); */
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 10px 40px 0;
+  height: 320px;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+}
+.banner_GYM .row{
+  align-items: center;
+}
+.banner_GYM2{
+  background-image: url(../images/GYM/bg_banner2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10px 40px 0;
+  height: 320px;
+  position: relative;
+  display: flex;
+  background: #4c67f6;
 }
 .banner_GYM h2{
   color: #fff;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 100;
   margin-bottom: 0;
 }
 .banner_GYM p{
-  font-size: 16px;
+  font-size: 20px;
+  margin-bottom: 2rem;
   color: #fff;
-  width: 60%;
+  line-height: 25px;
+  font-family: inherit;
+  font-weight: 100;
+}
+.banner_move{
+  margin-top: -150px;
+}
+.banner_GYM img{
+  position: absolute;
+  bottom: 0;
+  width: 482px;
+  height: 428px;
+  right: 2px;
+}
+.banner_move_bottom{
+  margin-bottom: -150px;
+}
+.wraper-GYM .section-head .title{
+  font-weight: 100;
+  line-height: 65px;
+  font-family: inherit;
+  font-size: 56px;
+}
+.wraper-GYM .section-head p{
+  color: #333333;
+  font-weight: 100;
+  font-family: inherit;
+  width: 30%;
 }
 
+.classes_GYM .dz-card.style-4 .dz-title{
+  font-family: inherit;
+    font-weight: 100;
+}
+.classes_GYM .dz-card.style-4 .bg_image{
+  margin-right: 20px;
+  height: 273px;
+  border-radius: 0 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+.classes_GYM .dz-card.style-4 .bg_image img{
+  width: 559px;
+  height: 326px;
+  bottom: -24px;
+  position: absolute;
+}
+.classes_GYM .dz-card.style-4 .bg1{
+  background: #f9c446;
+}
+.classes_GYM .dz-card.style-4 .bg2{
+  background: #C3BFFA;
+}
+.classes_GYM .dz-card.style-4 .bg3{
+  background: #4C67F6;
+}
+.classes_GYM .dz-card.style-4 .dz-info p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #333333;
+}
+.classes_GYM .dz-card.style-4 .dz-info p img{
+   margin-right: 5px;
+   height: 32px;
+   width: 32px;
+}
+.classes_GYM .dz-card.style-4 .dz-info , .trainners_GYM .dz-card.style-4 .dz-info{
+  padding: 20px;
+}
+.classes_GYM .dz-media,.classes_GYM .dz-post-media{
+  overflow: inherit;
+}
+.classes_GYM .dz-card.style-4 .dz-media a{
+  position: absolute;
+  top: -23px;
+  z-index: 10000;
+  height: 326px;
+}
+.classes_GYM .dz-card.style-4 .dz-media a img{
+  border-radius: 0 0 20px 0;
+}
+[dir='rtl'] .classes_GYM .dz-card.style-4 .dz-media a img{
+  border-radius: 20px 0 0 0;
+  -webkit-border-radius: 20px 0 0 0;
+  -moz-border-radius: 20px 0 0 0;
+  -ms-border-radius: 20px 0 0 0;
+  -o-border-radius: 20px 0 0 0;
+}
+.classes_GYM .dz-card.style-4{
+  box-shadow: none;
+    background: #fff;
+    border-radius: 20px;
+}
+.classes_GYM .swiper-slide , .trainners_GYM .swiper-slide{
+  padding: 50px 0 0;
+}
+.classes_GYM .dz-card.style-4 .dz-media{
+  margin-right: 20px;
+}
+.classes_GYM .swiper-pagination-bullet , .trainners_GYM .swiper-pagination-bullet{ 
+  font-size: 0;
+  background: #707070;
+  width: 15px;
+  height: 15px;
+}
+.classes_GYM .swiper-pagination-bullet-active , .trainners_GYM .swiper-pagination-bullet-active{
+  background: #F18C7F;
+}
+.class-swiper , .trainner-swiper{
+  margin: -15px;
+  width: auto; 
+}
+.class-swiper .swiper-slide > div , .trainner-swiper .swiper-slide > div {
+  margin: 15px;
+  height: 100%;
+}
+.trainner-swiper .dz-card.style-4 .dz-media {
+  height: 224px;
+  border-radius: 0 0 20px;
+  margin-right: 20px;
+  -webkit-border-radius: 0 0 20px;
+  -moz-border-radius: 0 0 20px;
+  -ms-border-radius: 0 0 20px;
+  -o-border-radius: 0 0 20px;
+}
+.trainners_GYM .dz-card.style-4 .dz-title{
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+.trainners_GYM .dz-card.style-4 p{
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 0;
+}
+[dir='rtl'] .trainner-swiper .dz-card.style-4 .dz-media {
+  margin-left: 20px;
+  margin-right: 0;
+}
+[dir='rtl'] .classes_GYM .dz-card.style-4 .dz-media{
+  margin-left: 20px;
+  margin-right: 0;
+}
+.curve_bg_color1{
+  background: #FFF4DA;
+  border-radius: 0 300px 0 300px;
+  padding: 30px 0;
+}
+.curve_bg_color2{
+  background: #333333;
+  border-radius: 0 300px 0 300px;
+  padding: 200px 0;
+}
+.gallery_GYM{
+  padding: 300px 0 100px;
+}
+.gallery_GYM .site-filters.style-1 .filters li a{
+  border: 1px solid #33333338;
+  padding: 5px 20px;
+  color: #333333;
+  border-radius: 5px;
+}
+.gallery_GYM .site-filters.style-1 .filters li.active a{
+  color: #fff;
+  background:  #333333;
+}
+.gallery_GYM .site-filters.style-1 .filters li{
+  margin: 0 3px -1px;
+}
+.gallery_GYM .gallery1 {
+  height: 256px;
+}
+.gallery_GYM .gallery2 {
+  height: 416px;
+}
+.gallery_GYM .gallery3 {
+  height: 336px;
+}
+.gallery_GYM .gallery4 {
+  height: 384px;
+}
+.gallery_GYM .gallery5 {
+  height: 320px;
+}
+.gallery_GYM .gallery6 {
+  height: 336px;
+}
+.testimonial_GYM .section-head p{
+  width: 50%;
+}
+.testimonial_GYM{
+  margin-bottom: -100px;
+}
+.testimonial_GYM .box-testimonial{
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 3px 3px 15px 0 rgb(0 0 0 / 15%);
+  padding: 20px 80px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.testimonial_GYM .box-testimonial.odd{
+  margin-left: 60px;
+}
+.testimonial_GYM .img-testimonial{
+  position: absolute;
+  left: -50px;
+  top: 9px;
+}
+.testimonial_GYM .img-testimonial img{
+  width: 103.92px;
+  height: 118.05px;
+}
+.testimonial_GYM .icon-content p{
+  color: #333333;
+  font-size: 16px;
+  line-height: 25px;
+}
+.testimonial_GYM .icon-content .dz-title{
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 200;
+  line-height: 25px;
+}
+.testimonial_GYM .icon-content small{
+  color: #333333;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.prices_GYM .bx-price{
+   background: #fff;
+   height: 400px;
+}
+.prices_GYM .left .bx-price{
+  border-radius: 20px 0 0 20px;
+}
+.prices_GYM .right .bx-price{
+  border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;
+}
+.prices_GYM .center .bx-price{
+    height: 452px;
+    margin-top: -25px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    box-shadow: 3px 3px 15px 0 rgb(0 0 0 / 15%);
+}
 
+.prices_GYM .bx-price .content-price{
+  margin-right: 20px;
+  border-radius: 20px 0;
+  height: 176px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  color: #fff;
+  -webkit-border-radius: 20px 0;
+  -moz-border-radius: 20px 0;
+  -ms-border-radius: 20px 0;
+  -o-border-radius: 20px 0;
+}
+.prices_GYM .bx-price p{
+  font-size: 24px;
+    font-weight: 100;
+    font-family: inherit;
+}
+.prices_GYM .bx-price h3{
+  font-size: 56px;
+  color: #fff;
+  font-weight: 100;
+  font-family: inherit;
+}
+.prices_GYM .bx-price.price1 .content-price{
+  background: #F8C345;
+}
+.prices_GYM .bx-price.price2 .content-price{
+  background: #F18C7F;
+  border-radius: 20px 0;
+}
+
+.prices_GYM .bx-price.price3 .content-price{
+  background: #4C67F6;
+}
+.prices_GYM .content-list li{
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.prices_GYM .content-list{
+   padding: 20px;
+}
+.prices_GYM .content-list .point_blue {
+  color:#333333;
+}
+.prices_GYM .content-list .btn{
+  padding: 8px 50px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    color: #333333;
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+.prices_GYM .center .content-list .btn{
+  background: #333333;
+  color: #fff;
+}
+.prices_GYM .content-list .point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 5px;
+}
+.prices_GYM .content-list .point_blue .point{
+  background: #4C67F6;
+} 
+.prices_GYM .content-list .point_red .point{
+  background: #F18C7F;
+} 
+.blogs_GYM{
+  padding: 100px 0;
+}
+.blogs_GYM .bx-blog{
+  background: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.blogs_GYM .bx-blog .blog-image{
+  position: relative;
+}
+.blogs_GYM .bx-blog.large-blog img{
+  height: 272px;
+}
+.blogs_GYM .bx-blog.large-blog .icon{
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 74.48px;
+  height: 84.61px;
+  background: #F18C7F;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  right: 60px;
+  bottom: -41px;
+}
+.blogs_GYM .bx-blog.large-blog .icon h5{
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 100;
+  font-family: inherit;
+  line-height: 22px;
+}
+.blogs_GYM .bx-blog.small-blog{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 20px;
+} 
+.blogs_GYM .bx-blog.small-blog small{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.blogs_GYM .bx-blog.small-blog p{
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.blogs_GYM .bx-blog.small-blog img{
+  height: 160px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.blogs_GYM .bx-blog.large-blog .icon p{
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.blogs_GYM .bx-blog.large-blog .des{
+  padding: 50px 20px 20px;
+  color: #333333;
+  font-size: 24px;
+  line-height: 31px;
+}
   @media only screen and (max-width: 991px){
     .header_GYM .gym_social_header{
       display: none !important;
@@ -27094,5 +27519,20 @@ i[class^=flaticon-]:before{
   }
   .features_GYM .m-b100 {
     margin-bottom: 20px;
+}
+.banner_GYM{
+  height: 598px;
+    background: #f18c7f;
+}
+.banner_GYM img{
+  height: 305px;
+}
+.banner_GYM2{
+  height: 530px;
+  background: #4c67f6;
+  padding: 20px;
+}
+.banner_GYM .row {
+  align-items: start;
 }
   }

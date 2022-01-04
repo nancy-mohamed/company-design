@@ -528,6 +528,75 @@ jQuery(document).ready(function() {
 		});
 	}
 
+	
+		// Blog Swiper
+		if(jQuery('.class-swiper').length > 0){
+			var blogswiper = new Swiper('.class-swiper', {
+				slidesPerView: 3,
+				spaceBetween: 0,
+				speed: 1500,
+				loop:true,
+				autoplay: false,
+				breakpoints: {
+					1191: {
+						slidesPerView: 3,
+					},
+					991: {
+						slidesPerView: 2,
+					},
+					691: {
+						slidesPerView: 2,
+					},
+					320: {
+						slidesPerView: 1,
+					},
+				},
+				pagination: {
+					el: '.swiper-pagination1',
+					clickable: true,
+					renderBullet: function (index, className) {
+					  return '<span class="' + className + '">' + (index + 1) + '</span>';
+					},
+				},
+
+			});
+		}
+
+				// Blog Swiper
+				if(jQuery('.trainner-swiper').length > 0){
+					var blogswiper = new Swiper('.trainner-swiper', {
+						slidesPerView: 4,
+						spaceBetween: 0,
+						speed: 1500,
+						loop:true,
+						autoplay: false,
+						breakpoints: {
+							1191: {
+								slidesPerView: 4,
+							},
+							991: {
+								slidesPerView: 3,
+							},
+							691: {
+								slidesPerView: 2,
+							},
+							320: {
+								slidesPerView: 1,
+							},
+						},
+						pagination: {
+							el: '.swiper-pagination1',
+							clickable: true,
+							renderBullet: function (index, className) {
+							  return '<span class="' + className + '">' + (index + 1) + '</span>';
+							},
+						},
+		
+					});
+				}
+			
+	
+
 	// Blog Swiper
 	if(jQuery('.post-swiper').length > 0){
 		var swiper2 = new Swiper('.post-swiper', {
